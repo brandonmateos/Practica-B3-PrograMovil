@@ -111,7 +111,7 @@
                 </div>
               </div>
     
-              <div class="col-4 col-md-4 col-xs-12 mx-auto card" style="width: 18rem;">
+              <div class="col-4 col-md-4 col-xs-12 mx-auto card">
                 <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -120,7 +120,7 @@
                 </div>
               </div>
     
-              <div class="col-4 col-md-4 col-xs-12 mx-auto card" style="width: 18rem;">
+              <div class="col-4 col-md-4 col-xs-12 mx-auto card" >
                 <img class="card-img-top" src="img/4.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -140,84 +140,90 @@
           <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
           <hr class="my-4">
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
-      </div>
+          <a  class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"
+          style="color: white;">Learn more</a>
+          <br><br><br>
+          <div class="card">
+            <div id="collapse1" class="collapse show" aria-labelledby="Encabezado1" data-parent="#accordionExample">
+              <div class="card-body">
+
+ <!--COLLAPS-->
+                <div class="col-12 col-md-12 text-center mx-auto vh-50 justify-content-center" style="padding: 2%;">
+                  <h4 class="display-4">Lorem, ipsum dolor.</h4>
+                  <h6 class="lead" style="color: blue;">Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur. adipisicing elit. Beatae itaque, dolorum totam saepe, architecto officia quo necessitatibus expedita, laborum commodi similique temporibus! Doloremque tempora mollitia, omnis repellendus laborum id provident?</h6>
+                </div>
+            
+                <div class="row" style="padding: 5%">
 
       <!--COLLAPS-->
-      <div class="col-12 col-md-12 text-center mx-auto vh-50 justify-content-center" style="padding: 5%;">
-        <h4 class="display-4">Lorem, ipsum dolor.</h4>
-        <h6 class="lead" style="color: blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae itaque, dolorum totam saepe, architecto officia quo necessitatibus expedita, laborum commodi similique temporibus! Doloremque tempora mollitia, omnis repellendus laborum id provident?</h6>
-      </div>
-   
-      <div class="row" style="padding: 5%">
+                  <div class="row col-6" style="padding: 3%;">
+                    <div class="accordion col-12" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header bg-primary " id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: white;">
+                            Collapsible Group Item #1
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
 
-      <!--COLLAPS-->
-        <div class="row col-6" style="padding: 3%;">
-          <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header bg-primary" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: white;">
-                  Collapsible Group Item #1
-                </button>
-              </h5>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
+                    <div class="card">
+                      <div class="card-header bg-primary" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: white;">
+                            Collapsible Group Item #2
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
 
-          <div class="card">
-            <div class="card-header bg-primary" id="headingTwo">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: white;">
-                  Collapsible Group Item #2
-                </button>
-              </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header bg-primary" id="headingThree">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: white;">
-                  Collapsible Group Item #3
-                </button>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
+                    <div class="card">
+                      <div class="card-header bg-primary" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: white;">
+                            Collapsible Group Item #3
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
 
       <!--ACORDION-->
     
-<div class=" row col col-12 col-md-6 col-sm-12 col-xs-12" style="padding: 3%;">
-  <img class="card-img-top" src="img/2.jpg">
-  <ul class="list-group col-12">
-    <li class="list-group-item active border border-secondary-subtle" aria-current="true">Cras justo odio</li>
-    <li class="list-group-item border">Dapibus ac facilisis in</li>
-    <li class="list-group-item border">Morbi leo risus</li>
-    <li class="list-group-item border">Porta ac consectetur ac</li>
-    <li class="list-group-item border">Vestonulum at eros</li>
-  </ul>
-</div>
+                <div class=" row col col-12 col-md-6 col-sm-12 col-xs-12" style="padding: 3%;">
+                  <img class="card-img-top" src="img/2.jpg">
+                  <ul class="list-group col-12">
+                    <li class="list-group-item active border border-secondary-subtle" aria-current="true">Cras justo odio</li>
+                    <li class="list-group-item border">Dapibus ac facilisis in</li>
+                    <li class="list-group-item border">Morbi leo risus</li>
+                    <li class="list-group-item border">Porta ac consectetur ac</li>
+                    <li class="list-group-item border">Vestonulum at eros</li>
+                  </ul>
+                </div>
 
+              </div>
+            </div>
+          </div>
 
-
-
+        </div>
+      </div>
       
       <!--asldamsdlas-->
 
